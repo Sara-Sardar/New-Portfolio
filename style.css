@@ -1,0 +1,83 @@
+
+body {
+    background: #fff;
+  }
+  
+  
+  
+  /*********start header section*********/
+   .nav-item:hover{
+      border-radius:3px;
+      /*background-color:rgba(191, 219, 247
+      , 0.5);*/
+      background-color:rgba(0, 42, 178, 0.1);
+      color:rgb(0, 42, 178);
+      font-weight:700px;
+    }
+    /*********end header section*********/
+    
+   
+   
+  
+  /*********start tab projects*********/
+    .mytabs {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1400px;
+      margin: 50px auto;
+      padding: 50px;
+      justify-content: center;
+    }
+    .mytabs input[type="radio"] {
+      display: none;
+    }
+    .mytabs label {
+      padding: 0px;
+    }
+  
+    .mytabs .tab {
+      width: 100%;
+      padding-top: 30px;
+      background: #fff;
+      order: 1;
+      display: none;
+    }
+  
+    .mytabs input[type="radio"]:checked + label + .tab {
+      display: block;
+    }
+  
+    .mytabs input[type="radio"]:checked + label {
+      /*background: rgba(0, 42, 174, 0.5);*/
+      background-color:rgba(0, 42, 178, 0.3);
+    }
+  
+  
+  /*********end tab projects*********/
+  
+  
+  
+   /*********start project section*********/
+   .nav{
+      justify-content: center;
+   }
+  
+   .part{
+      margin-top: 60px;
+   }
+  /*********end project section*********/
+  
+  
+  
+   
+  
+    /*********star footer section *********/
+    .containerr{
+      display:flex;
+      flex-wrap:wrap; 
+      justify-content:flex-start ;
+      align-items:center;
+    }
+    /*********end footer section *********/
+  
+  
